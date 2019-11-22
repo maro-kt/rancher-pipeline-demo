@@ -32,5 +32,5 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 80
-      #imagePullSecrets:
-      #      - name: pipeline-docker-registry
+      imagePullSecrets:
+            - name: pipeline-docker-registry
