@@ -1,3 +1,3 @@
 FROM nginx:mainline-alpine
 
-COPY ./html /usr/share/nginx/html
+COPY ./docker/html /usr/share/nginx/html
